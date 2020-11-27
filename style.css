@@ -1,25 +1,3 @@
-@font-face/*remove*/{
-  font-family: 'Poppins';
-  src:local('Poppins-Regular'), 
-      local('Poppins-ExtraLight'),
-      local('Poppins-SemiBold'),
-      url(Poppins/Poppins-ExtraLight.ttf)/*200*/,
-      url(Poppins/Poppins-Regular.ttf)/*400*/,
-      url(Poppins/Poppins-SemiBold.ttf)/*600*/ ; 
-}
-
-@font-face/*remove*/{
-  font-family: 'Poppins-Regular';
-  src:local('Poppins-Regular'), 
-  url(Poppins/Poppins-Regular.ttf)/*400*/;
-}
-
-@font-face/*remove*/{
-  font-family: 'Poppins-SemiBold';
-  src:local('Poppins-SemiBold'), 
-  url(Poppins/Poppins-SemiBold.ttf)/*400*/;
-}
-
 /* MOBILE FIRST */
 *{
   margin: 0;
@@ -37,13 +15,11 @@ html{
 
 h1, h2, h3, h4, h5, h6{
   font-weight: 600;
-  font-family: 'Poppins-SemiBold';/*remove*/
   color: #4c4e61;
 }
 
 p{
   color: #a3a5ae;
-  font-family: 'Poppins-Regular';/*remove*/
   font-weight: 400;
   font-size: 1.4rem;
 }
@@ -64,7 +40,6 @@ p{
 }
 
 .heading{
-  font-family: 'Poppins';/*remove*/
   font-weight: 200;
 }
 
@@ -132,3 +107,9 @@ p{
 }
 
 /* MEDIA QUERIES FOR TABLET AND DESKTOP */
+@media(min-width: 750px) {
+  .cards{
+    display: flex;
+    flex-direction: row;
+  }
+}

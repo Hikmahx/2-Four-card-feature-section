@@ -118,7 +118,7 @@ p{
   .cards{
     padding-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(11, 7%);
+    grid-template-columns: repeat(11, 6%);
     grid-template-rows: repeat(6, 6rem);
     grid-row-gap: 1rem;
     grid-column-gap: 3rem;

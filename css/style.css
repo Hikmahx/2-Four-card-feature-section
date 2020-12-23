@@ -63,7 +63,6 @@ p {
 
 .card-heading p {
   line-height: 2.6rem;
-  width: 90%;
 }
 
 .cards {
@@ -209,7 +208,7 @@ p {
   }
 }
 
-@media (min-height: 805px) {
+@media (min-height: 805px) and (max-width: 1198px) {
   .cards-section {
     height: 100vh;
   }
@@ -223,34 +222,30 @@ p {
 
 @media (min-width: 1200px) {
   .cards-section {
-    padding: 8.4rem 2.4rem 5.2rem;
+    padding: 7.4rem 2.4rem 5.2rem;
   }
   .card-heading {
     max-width: 50rem;
   }
   .card-heading p {
-    width: 100%;
-    font-size: 1.7rem;
+    width: 54rem;
+    font-size: 1.5rem;
   }
   .heading {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
   .heading-bold {
-    font-size: 4rem;
-    margin-bottom: 0.5rem;
+    font-size: 3.6rem;
   }
   .cards {
     padding: 0 10%;
-    margin-top: 6rem;
+    margin-top: 5.6rem;
   }
   .card {
     height: 24.5rem;
   }
   .inner {
-    padding: 3.4rem;
-  }
-  .inner p {
-    font-size: 1.5rem;
+    padding: 3rem;
   }
   .inner .icon {
     bottom: 2.8rem;
